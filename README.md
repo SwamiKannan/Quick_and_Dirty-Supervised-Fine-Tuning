@@ -21,7 +21,7 @@ This is basically a quick get to go fine-tuning exercise, inspired by the hundre
 3. Run cell 1 to install the libraries
 4. Run cell 2 to allow the notebook to access your Google Drive. This is **specifically** to allow the notebook to store all the generated products to your Google drive. Google colab deletes all the data it generates (models, logs, etc.) from its memory when the runtime is disconnected
 5. Run cell 3 to authenticate your Huggingface account. This is **specifically** to allow the notebook to push your final finetuned model directly to your Huggingface account.
-6. Fill in the details in the section "3. USER INPUTS. Mandatory details include:
+6. Fill in the details in the section <b>3. USER INPUTS"</b>. Mandatory details include:
    <ul>
       <li>Dataset name</li>
       <li>Split</li>
@@ -33,8 +33,12 @@ df['question] = df['professor']
 df['answer']=df['student']
 ```
 8. Run  the rest of the code cells one after the other
-### Note 1: 
-   
+### Notes: 
+<ul>
+   <li>Make sure you do not store your Hugginface key where others can access it. Else, people can easily access any service (free or paid) if they have access to your key.</li>
+   <li>Make sure the section <b>3. USER INPUTS</b> without any errors/ messages. Else, this will prevent the rest of the code from running acccurately.</li>
+   <li>The default model used is <b>mistralai/Mistral-7B-v0.1</b> . Hence, if no model_name is given, this is the model that will be used.</li>
+</ul>
 
 #### Credits:
 <sub> Speedometer image from <a href="https://www.pngegg.com/en/search?q=speedometer"> PNGEGG </a><br>
