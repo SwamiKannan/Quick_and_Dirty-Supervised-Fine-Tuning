@@ -27,7 +27,7 @@ This is basically a quick get to go fine-tuning exercise, inspired by the hundre
       <li>Split</li>
    </ul>
 7. Update the code for the function update_dataset(). If no data processing is required, just point the appropriate column names to df['question'] and df['answer']. <br>
-__Example: if the column "professor" in the dataframe has the input for the question, and the column "student" in the data frames has the input of the answer, update the function as follows:
+*Example: if the column "professor" in the dataframe has the input for the question, and the column "student" in the data frames has the input of the answer, update the function as follows:*
 ```
 df['question] = df['professor']
 df['answer']=df['student']
