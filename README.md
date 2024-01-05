@@ -13,7 +13,7 @@ This is basically a quick get to go fine-tuning exercise, inspired by the hundre
    <ol>
      <li> Login to Huggingface </li>
      <li> In the top right corner, click on the profile link and go to Settings</li>
-     <center><img src="https://github.com/SwamiKannan/Quick_and_Dirty-Supervised-Fine-Tuning/blob/main/images/access_hf1.png"></center>
+     <center><img src="https://github.com/SwamiKannan/Quick_and_Dirty-Supervised-Fine-Tuning/blob/main/images/access_hf1.png"></center><br>
      <li> In the Settings page, click on Access Tokens and then copy the link of the key in the access page</li>
     <center><img src="https://github.com/SwamiKannan/Quick_and_Dirty-Supervised-Fine-Tuning/blob/main/images/access_hf2.png"></center>
       Store this temporarily on a note page for step 5 below:
@@ -32,6 +32,7 @@ __Example: if the column "professor" in the dataframe has the input for the ques
 df['question] = df['professor']
 df['answer']=df['student']
 ```
+8. Run  the rest of the code cells one after the other
 ### Note 1: 
    
 
