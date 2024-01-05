@@ -3,7 +3,12 @@
 
 This is basically a quick get to go fine-tuning exercise, inspired by the hundreds of notebooks that have been done for Diffusion models. 
 
+# Requirements:
+1. A Google account (with Drive and Colab available)
+2. A [Huggingface account](https://huggingface.co/join)
+
 ## Usage:
+1. 
 
 #### Credits:
 <sub> Speedometer image from <a href="https://www.pngegg.com/en/search?q=speedometer"> PNGEGG </a><br>
